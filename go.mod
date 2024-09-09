@@ -1,6 +1,6 @@
 module github.com/coredns/coredns
 
-go 1.22.0
+go 1.22.2
 
 toolchain go1.23.0
 
@@ -61,6 +61,7 @@ require (
 	github.com/DataDog/go-tuf v1.0.2-0.5.2 // indirect
 	github.com/DataDog/sketches-go v1.4.5 // indirect
 	github.com/Microsoft/go-winio v0.6.1 // indirect
+	github.com/MrMohebi/coredns_iran_resolver v1.0.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/coreos/go-semver v0.3.0 // indirect
