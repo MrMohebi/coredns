@@ -7,3 +7,4 @@ release/
 vendor/
 .idea
 Makefile.docker
+hosts-*
