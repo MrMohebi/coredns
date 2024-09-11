@@ -2,7 +2,7 @@
 ```
 .:5322 {
 
-    hosts /etc/ir-host {
+    hosts /etc/hosts-ir {
         reload 500ms
         fallthrough
     }
@@ -42,5 +42,5 @@ $ make
 $ go generate
 $ go get github.com/MrMohebi/coredns_iran_resolver
 $ go build
-$ ./coredns -conf ./coredns.config
+$ ./coredns -conf ./coredns.config # as root
 ```
