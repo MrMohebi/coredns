@@ -4,7 +4,7 @@ go 1.22.2
 
 toolchain go1.23.0
 
-//replace github.com/coredns/coredns/plugin/iran_resolver => ../plugin/iran_resolver
+replace github.com/coredns/coredns/plugin/iran_resolver => ../plugin/iran_resolver
 
 require (
 	github.com/Azure/azure-sdk-for-go v68.0.0+incompatible
